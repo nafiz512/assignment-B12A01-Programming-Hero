@@ -31,7 +31,7 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     height: 698px;
-    max-width: 1440px; 
+    /* max-width: 1640;  */
 }
 /* nav style  */
 .navbar{
@@ -54,7 +54,6 @@ header{
 /* web flow style  */
 
 .web-flow{
-    background: transparent;
     width: 905px;
     height: 237px;
     margin: 158px auto 152px auto;
@@ -62,22 +61,18 @@ header{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    
 }
 .web-flow h3{
-    background: transparent;
+    
     font-size: 65px;
     font-weight: bold;
     text-align: center;
-    /* margin-bottom: 37px; */
 }
 /* end of web-flow style  */
 /* end of header  */
-
 /* action-section style  */
 .action-section{
-
-    width: 1140px;
+    /* width: 1140px; */
     height: 328px;
     margin: 116px 160px 0px 140px;
     display: flex;
@@ -87,8 +82,7 @@ header{
 }
 .action-content{
     height: 203px;
-    width:517 px;
-
+    width:517px;
 }
 .action-content h4{
     font-size: 42px;
@@ -112,8 +106,7 @@ header{
 /* product style  */
 
 .product-section{
-    
-    width: 1140px;
+    /* width: 1140px; */
     height: 306px;
     background-color:rgb(78,71,255,0.1);
     margin: 116px 160px 0px 140px;
@@ -138,7 +131,6 @@ header{
 .product-content-info{
     display: flex;
     justify-content: space-around;background: transparent;
-    /* background: transparent; */
 }
 .prod-info-statistics{
     display: flex;
@@ -162,7 +154,7 @@ header{
 
 /* User say section style  */
 .user-say-section{
-    width: 1140px;
+    /* width: 1140px; */
     margin: 137px 160px 0px 140px;
 }
 
@@ -188,7 +180,6 @@ header{
 .card-img{
     background-color: #FFFF;
     margin: 24px 0 24px 24px;
-    /* background: transparent; */
 }
 .card-img img{
     background-color: #FFFF;
@@ -235,10 +226,8 @@ header{
  /* end of user review section  */
  /* focus section style  */
  .focus-section{
-    /* display: flex;
-    flex-direction: column; */
     background-color: #FFFF;
-    width: 1140px;
+    /* width: 1140px; */
     height: 696px;
     margin: 137px 160px 0px 140px;
  }
@@ -258,10 +247,11 @@ header{
  .focus-section-content img{
     border-radius: 35px;
  }
+ /* end of focus style  */
  /* get in touch section  */
 .get-in-touch-section{
     height: 632px;
-    width: 1140px;
+    /* width: 1140px; */
     margin: 92px 160px 0px 140px;
 }
 .get-in-touch-section{
@@ -318,6 +308,7 @@ header{
 /* End of main style  */
 
 /* footer style  */
+
 footer{
     height: 428px;
     background-color: #FFFF;
