@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    
 }
 .open-sans-ralewayfont {
   font-family: "Open Sans", sans-serif;
@@ -37,7 +36,7 @@ header{
 .navbar{
     margin-left: 150px;
     margin-right: 150px;
-    width: 1140px;
+    /* width: 1140px; */
     height: 151px;
     display: flex;
     justify-content: space-between;
