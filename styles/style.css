@@ -34,14 +34,13 @@ header{
 }
 /* nav style  */
 .navbar{
-    margin-left: 150px;
-    margin-right: 150px;
-    /* width: 1140px; */
+    max-width: 1140px;
+    margin: 0 auto;
+    max-width: 1140px;
     height: 151px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background:transparent;
 }
 
 .navbar h3{
@@ -71,9 +70,9 @@ header{
 /* end of header  */
 /* action-section style  */
 .action-section{
-    /* width: 1140px; */
+    max-width: 1140px;
     height: 328px;
-    margin: 116px 160px 0px 140px;
+    margin: 116px auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -105,10 +104,10 @@ header{
 /* product style  */
 
 .product-section{
-    /* width: 1140px; */
+    max-width: 1140px;
     height: 306px;
     background-color:rgb(78,71,255,0.1);
-    margin: 116px 160px 0px 140px;
+    margin: 116px auto;
     border-radius: 10px;
     display: flex;
 }
@@ -153,8 +152,8 @@ header{
 
 /* User say section style  */
 .user-say-section{
-    /* width: 1140px; */
-    margin: 137px 160px 0px 140px;
+    max-width: 1140px;
+    margin: 137px auto;
 }
 
 .user-say-content-title{
@@ -226,9 +225,9 @@ header{
  /* focus section style  */
  .focus-section{
     background-color: #FFFF;
-    /* width: 1140px; */
+    max-width: 1140px;
     height: 696px;
-    margin: 137px 160px 0px 140px;
+    margin: 137px auto;
  }
 
  .focus-section-content{
@@ -250,8 +249,8 @@ header{
  /* get in touch section  */
 .get-in-touch-section{
     height: 632px;
-    /* width: 1140px; */
-    margin: 92px 160px 0px 140px;
+    max-width: 1140px;
+    margin: 92px auto;
 }
 .get-in-touch-section{
     display: flex;
