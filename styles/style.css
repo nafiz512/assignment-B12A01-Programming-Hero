@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: #e5ebf8;
+    
 }
 .open-sans-ralewayfont {
   font-family: "Open Sans", sans-serif;
@@ -9,6 +9,7 @@
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
+    background-color: #e5ebf8;
 }
 /* common style  */
 .btn{
@@ -288,4 +289,49 @@ header{
     font-family: "inter";
     font-size: 18px;
     padding: 10px 0px;
+}
+/* End of main style  */
+
+/* footer style  */
+footer{
+    height: 428px;
+    background-color: #FFFF;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-section{
+    height: 221px;
+    width: 531px;
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-title{
+    font-size: 100px;
+    color: #4E47FF;
+    font-weight: bold;
+}
+
+.footer-content{
+    height: 48px;
+    padding: 4px;
+    text-align: center;
+}
+
+.footer-items{
+    display: flex;
+    gap: 48px;
+}
+.footer-items a{
+    text-decoration: none;
+    color: #8987A1;
+}
+.text-style1{
+    font-size: 16px;
+    color: #8987A1;
+    font-weight: 200;
 }
