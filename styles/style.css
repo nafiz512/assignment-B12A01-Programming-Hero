@@ -233,6 +233,31 @@ header{
     color: #B3B3B3;
 }
  /* end of user review section  */
+ /* focus section style  */
+ .focus-section{
+    /* display: flex;
+    flex-direction: column; */
+    background-color: #FFFF;
+    width: 1140px;
+    height: 696px;
+    margin: 137px 160px 0px 140px;
+ }
+
+ .focus-section-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+ }
+ .focus-title{
+    margin-top: 71px;
+    font-size: 50px;
+    font-weight: bold;
+ }
+ .focus-section-content img{
+    border-radius: 35px;
+ }
  /* get in touch section  */
 .get-in-touch-section{
     height: 632px;
