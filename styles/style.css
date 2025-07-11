@@ -231,3 +231,61 @@ header{
     font-size: 12px;
     color: #B3B3B3;
 }
+ /* end of user review section  */
+ /* get in touch section  */
+.get-in-touch-section{
+    height: 632px;
+    width: 1140px;
+    margin: 92px 160px 0px 140px;
+}
+.get-in-touch-section{
+    display: flex;
+    justify-content: center;
+    gap: 115px;
+}
+.get-in-touch-title{
+    height: 232px;
+    font-size: 97px;
+    font-weight: bold;
+    color: #000000;
+    margin: 200px 0px ;
+}
+
+.get-in-touch-form{
+    height: 490px;
+    width: 497px;
+    margin: 71px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.get-in-touch-form form{
+    display: flex;
+    flex-direction: column;
+}
+.get-in-touch-form form input{
+    background-color: #FFFF;
+    border: 1px solid #D6DDED;
+    border-radius: 5px;
+    padding: 20px 30px;
+    font-size: 20px;
+    /* margin-top: 5px; */
+}
+
+.get-in-touch-form form textarea{
+    background-color: #FFFF;
+    border: 1px solid #D6DDED;
+    border-radius: 5px;
+    height: 140px;
+    font-size: 20px;
+    padding:20px 30px ;
+    margin-bottom: 20px;
+    /* margin-top: 5px; */
+}
+
+.input-name{
+    font-weight:600;
+    font-family: "inter";
+    font-size: 18px;
+    padding: 10px 0px;
+}
