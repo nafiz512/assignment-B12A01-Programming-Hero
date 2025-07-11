@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: #F5F8FF;
+    background-color: #e5ebf8;
 }
 .open-sans-ralewayfont {
   font-family: "Open Sans", sans-serif;
@@ -162,13 +162,10 @@ header{
 /* User say section style  */
 .user-say-section{
     width: 1140px;
-    /* height: 342px; */
-    background-color:rgba(67, 64, 176, 0.1);
     margin: 137px 160px 0px 140px;
 }
 
 .user-say-content-title{
-    background: transparent;
     text-align: center;
     font-size: 42px;
     font-weight: bold;
@@ -176,26 +173,32 @@ header{
 }
 
 .user-say-content-card{
-    background: transparent;
     margin-top: 50px;
     display: flex;
-    /* justify-content: space-around; */
     gap: 20px;
 }
 
 .card{
+    background-color: #FFFF;
     border-radius: 10px;
     width: 366.67px;
 }
 
 .card-img{
+    background-color: #FFFF;
     margin: 24px 0 24px 24px;
+    /* background: transparent; */
 }
+.card-img img{
+    background-color: #FFFF;
+ }
 .card-content h5{
+    background-color: #FFFF;
     font-size: 17px;
     margin-bottom: 8px;
 }
 .card-content{
+    background-color: #FFFF;
     margin-left:24px ;
     margin-right: 24px;
     height: 81px;
@@ -205,20 +208,26 @@ header{
 }
 
 .card-reviewer{
+    background-color: #FFFF;
     display: flex;
     margin: 0 24px 24px 24px;
 }
 
 .card-reviewer img{
+    background-color: #FFFF;
     border-radius: 30px;
     margin-right: 6px;
 }
-
+.reviewer-info{
+    background-color: #FFFF;
+}
 .reviewer-info h5{
+    background-color: #FFFF;
     font-size: 12px;
     color: #757575;
 }
 .reviewer-info p{
+    background-color: #FFFF;
     font-size: 12px;
     color: #B3B3B3;
 }
