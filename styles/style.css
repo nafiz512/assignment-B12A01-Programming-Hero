@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    background-color: #F5F8FF;
 }
 .open-sans-ralewayfont {
   font-family: "Open Sans", sans-serif;
@@ -19,6 +20,10 @@
     font-size:16px ;
     font-weight: bold;
 }
+.btn:hover{
+    background-color: #918fbe;
+    cursor:pointer;
+}
 /* header style  */
 header{
     background-image: url("../assets/Hero-bg.png");
@@ -36,6 +41,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background:transparent;
 }
 
 .navbar h3{
@@ -47,6 +53,7 @@ header{
 /* web flow style  */
 
 .web-flow{
+    background: transparent;
     width: 905px;
     height: 237px;
     margin: 158px auto 152px auto;
@@ -54,8 +61,10 @@ header{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    
 }
 .web-flow h3{
+    background: transparent;
     font-size: 65px;
     font-weight: bold;
     text-align: center;
@@ -69,7 +78,7 @@ header{
 
     width: 1140px;
     height: 328px;
-    margin: 116px 160px 116px 140px;
+    margin: 116px 160px 0px 140px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -96,4 +105,58 @@ header{
 .action-image img{
     border-radius: 35px;
 }
+
+/* end action section  */
+
+/* product style  */
+
+.product-section{
+    
+    width: 1140px;
+    height: 306px;
+    background-color:rgb(78,71,255,0.1);
+    margin: 116px 160px 0px 140px;
+    border-radius: 10px;
+    display: flex;
+    
+}
+.product-content
+{
+    height: 206px;
+    width: 856px;
+    margin: auto auto;
+    background: transparent;
+}
+.product-content-title{
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    background: transparent;
+}
+
+.product-content-info{
+    display: flex;
+    justify-content: space-around;background: transparent;
+    /* background: transparent; */
+}
+.prod-info-statistics{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+}
+.prod-info-statistics h2{
+    color: #4E47FF;
+    font-size: 80px;
+    font-weight: bold;
+    background: transparent;
+}
+.prod-info-statistics p{
+    color:rgb(0,0,0,0.5);
+    background: transparent;
+}
+
+/* end of product style */
 
